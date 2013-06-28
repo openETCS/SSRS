@@ -11,4 +11,6 @@ You will also find meeting agendas and other precedureal documents in this place
 We want to organize our next working session, to adress the following topics:<br>
 1. which WP´s (Subtasks) are in the scope of the SSRS,<br>
 2. Organizing our Work Teams,<br>
-Please, use the Doodle List to prepare for a "face to face in Munich (DB) or Brussels (ERTMS Solution) [Doodle link] (http://www.doodle.com/rimxk8qme862h324msarbxx5/admin#table)
+The next meetings will be place at the UIC Paris<br>
+1st day (2nd of July) 13:00 .- 17:00 (right after the ITEA rehearsal) Room 205<br>
+2nd day (3rd of July) 09:00 - 12:00 (before the official ITEA report) Room 203<br>
