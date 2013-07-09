@@ -7,5 +7,5 @@ You will also find meeting agendas and other precedureal documents in this place
 Please, visit our [wiki](https://github.com/openETCS/SSRS/wiki) for more information on SSRS in openETCS
 
 ### Documents in use and standard.
-You get an overview on the useful documents needed for the SSRS task [here](wiki/SSRS-Documents).
+You get an overview on the useful documents needed for the SSRS task [here](https://github.com/openETCS/SSRS/wiki/SSRS-Documents).
 
