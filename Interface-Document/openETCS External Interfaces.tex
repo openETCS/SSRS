@@ -76,6 +76,7 @@ Version & Section & Modification / Description & Author \\\hline}
 \begin{supertabular}{| m{1.2cm} | m{1.2cm} | m{6.6cm} | m{4cm} |}
 1.0 & & Definition of I\textbackslash O's & B.Jacob \\
  & & & Jan Welvaarts \\\hline
+ 1.1 & & update & B.Jacob \\\hline
 \end{supertabular}
 
 
@@ -144,12 +145,11 @@ Version & Section & Modification / Description & Author \\\hline}
 
 ## The Train body shall provide driving direction information to the EVC.
 ## The ERTMS equipment shall read the driving direction via the Direction Controller State Interface.
-## \sout{The ERTMS shall implement a standstill supervision to avoid a movement of the trainset Without direction selected.} This is a specified ETCS function (see roll away protection)
+
 
 
 # Interface with traction cut-off
 
-## \sout {ERTMS System shall provide the traction cut-off}  This is a specified ETCS function (see roll away protection)
 
 
 ## Train Body (TIU) shall provide the feedback from the traction cut off system.
@@ -234,20 +234,35 @@ Version & Section & Modification / Description & Author \\\hline}
 
 
 ## ERTMS functions and equipments shall have no impact on existing ATP odometry.
-\end{easylist}
 
-
-\section{National requirement?}
-
-\begin{easylist}
 # Interface with the JRU (FFFIS Subset 27)
 
 ## All juridical information related to the ERTMS equipment shall be recorded and available via the TRU (???) interface.
 
-## \sout{ DMI shall display signaling information from ERTMS and STM.}
 
-## \sout{The DMI shall always display the set speed.}
 \end{easylist}
+\newpage
+\section{Interface Table}
+\tablefirsthead{
+\hline 
+\rowcolor{gray} 
+Function & Signal Type & Name & Source & Receiver\\\hline}
+\begin{supertabular}{| m{2.5 cm} | m{2.5 cm} | m{2.5 cm} | m{2.5cm} |m{2.5cm} |}
+Sleeping & BOOL & TrainSleep & Train (TIU) & OBU(EVC)\\
+ &  &  SleepNOT &  & \\\hline
+Isolation & BOOL & Isolation & OBU(EVC) & Train (TIU)\\\hline
+Passive shunting & BOOL & PassiveSh & Train (TIU) & OBU(EVC)\\\hline
+Service Break & BOOL & Eservicebreak & OBU(EVC) & Train (TIU)\\\hline
+ Emergency & BOOL & EB Feedback 1 & Train(Break & OBU(EVC)\\
+ Break &  &  & controll) & \\\hline
+ Traktion cut off & BOOL & TCO & OBU(EVC) & Train (TIU)\\\hline
+ Direction controller & BOOL & DC & Train (TIU) & OBU(EVC)\\\hline
+ Cab Status & BOOL & Cstat Cab & Train (TIU) & OBU(EVC)\\\hline
+ Brake Pressure & BOOL & BrPressure & Train (TIU) & OBU(EVC)\\\hline
+\end{supertabular}
+
+
+\tableofcontents
 
 \section{Overview OBU external and EVC external interfaces}
 
