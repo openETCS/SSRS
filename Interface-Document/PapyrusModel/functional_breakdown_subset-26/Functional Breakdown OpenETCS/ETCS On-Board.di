@@ -64,30 +64,21 @@
     <availablePage>
       <emfPageIdentifier href="ETCS%20On-Board.notation#_k4SuUBx-EeODB_yQQrPH6Q"/>
     </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="ETCS%20On-Board.notation#_FVtdoB95EeOFTImMhwF-Ow"/>
+    </availablePage>
   </pageList>
   <sashModel currentSelection="//@sashModel/@windows.0/@children.0">
     <windows>
       <children xsi:type="di:TabFolder">
         <children>
-          <emfPageIdentifier href="ETCS%20On-Board.notation#_SVajgBuCEeO0B8X4qlr5sA"/>
-        </children>
-        <children>
           <emfPageIdentifier href="ETCS%20On-Board.notation#_VDa2UBuMEeO0B8X4qlr5sA"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="ETCS%20On-Board.notation#_EFwMkBuSEeO0B8X4qlr5sA"/>
         </children>
         <children>
           <emfPageIdentifier href="ETCS%20On-Board.notation#_xr97YBudEeO0B8X4qlr5sA"/>
         </children>
         <children>
-          <emfPageIdentifier href="ETCS%20On-Board.notation#_s7k5EBueEeO0B8X4qlr5sA"/>
-        </children>
-        <children>
           <emfPageIdentifier href="ETCS%20On-Board.notation#_1Yp9oBufEeO0B8X4qlr5sA"/>
-        </children>
-        <children>
-          <emfPageIdentifier href="ETCS%20On-Board.notation#_zRh04BumEeO0B8X4qlr5sA"/>
         </children>
         <children>
           <emfPageIdentifier href="ETCS%20On-Board.notation#_TtF2YBupEeO0B8X4qlr5sA"/>
@@ -130,6 +121,21 @@
         </children>
         <children>
           <emfPageIdentifier href="ETCS%20On-Board.notation#_k4SuUBx-EeODB_yQQrPH6Q"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="ETCS%20On-Board.notation#_s7k5EBueEeO0B8X4qlr5sA"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="ETCS%20On-Board.notation#_FVtdoB95EeOFTImMhwF-Ow"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="ETCS%20On-Board.notation#_EFwMkBuSEeO0B8X4qlr5sA"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="ETCS%20On-Board.notation#_zRh04BumEeO0B8X4qlr5sA"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="ETCS%20On-Board.notation#_SVajgBuCEeO0B8X4qlr5sA"/>
         </children>
       </children>
     </windows>
