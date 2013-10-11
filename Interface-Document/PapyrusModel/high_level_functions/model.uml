@@ -23,7 +23,7 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_ZqgeoB-cEeOWxee8_admtw" name="manage ma request for entry into level 2" type="_TiBQsB-MEeOWxee8_admtw" aggregation="composite" association="_ZqIEIB-cEeOWxee8_admtw"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_aAQsMB-cEeOWxee8_admtw" name="manage mode and level and procedures ancillary functions" type="_VD0aoB-MEeOWxee8_admtw" aggregation="composite" association="_Z_3qoB-cEeOWxee8_admtw"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_S9UYcB-dEeOWxee8_admtw" name="manage procedures" type="_WBBCsB-MEeOWxee8_admtw" aggregation="composite" association="_S8798B-dEeOWxee8_admtw"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_TYAJUB-dEeOWxee8_admtw" name="manage procedures" type="_Xg6IIB-MEeOWxee8_admtw" aggregation="composite" association="_TXkEcB-dEeOWxee8_admtw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_TYAJUB-dEeOWxee8_admtw" name="perform ancillary functions" type="_Xg6IIB-MEeOWxee8_admtw" aggregation="composite" association="_TXkEcB-dEeOWxee8_admtw"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_Tu_tAB-dEeOWxee8_admtw" name="doors controll" type="_YjDhoB-MEeOWxee8_admtw" aggregation="composite" association="_TunSgB-dEeOWxee8_admtw"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_UL65kB-dEeOWxee8_admtw" name="brake commands" type="_ZkDroB-MEeOWxee8_admtw" aggregation="composite" association="_ULh4AB-dEeOWxee8_admtw"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_U0kN8B-dEeOWxee8_admtw" name="measure train movements" type="_ajiysB-MEeOWxee8_admtw" aggregation="composite" association="_U0LzcB-dEeOWxee8_admtw"/>
@@ -1693,8 +1693,8 @@
           <value xsi:nil="true"/>
         </defaultValue>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="__nWTwCnYEeOzmJblHFOvjw" name="determine most restrictive speed profile, based on :" type="_ePJIACnPEeOzmJblHFOvjw" aggregation="composite" association="__mbtwCnYEeOzmJblHFOvjw"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_AQZ30CnZEeOzmJblHFOvjw" name="determine most restrictive speed profile, based on :" type="_eH-JACnPEeOzmJblHFOvjw" aggregation="composite" association="_APfR0CnZEeOzmJblHFOvjw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="__nWTwCnYEeOzmJblHFOvjw" name="determine most restrictive speed profile, based on: mode related speed restriction" type="_ePJIACnPEeOzmJblHFOvjw" aggregation="composite" association="__mbtwCnYEeOzmJblHFOvjw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_AQZ30CnZEeOzmJblHFOvjw" name="determine most restrictive speed profile, based on: override related speed restriction" type="_eH-JACnPEeOzmJblHFOvjw" aggregation="composite" association="_APfR0CnZEeOzmJblHFOvjw"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_AijXwCnZEeOzmJblHFOvjw" name="ceiling speed monitoring only (no braking curve) based on mrsp" type="_ApqbcCnQEeOzmJblHFOvjw" aggregation="composite" association="_AhpY0CnZEeOzmJblHFOvjw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_nhuD4B-NEeOWxee8_admtw" name="Perform SH supervision and related actions">
@@ -2748,7 +2748,7 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_3V5XkCmvEeOzmJblHFOvjw" name="Manage Track Conditions Sound Horn, Non Stopping Areas, Tunnel Stopping Areas"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_3remACmvEeOzmJblHFOvjw" name="Manage Track Condition Big Metal Masses"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_8QwIACmvEeOzmJblHFOvjw" name="Determine train speed, train acceleration, train standstill"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_8gnwACmvEeOzmJblHFOvjw" name="Determine train speed, train acceleration, train standstill"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8gnwACmvEeOzmJblHFOvjw" name="Delete Revoked TSR"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_8zsdACmvEeOzmJblHFOvjw" name="Inhibition of revocable TSRs from balises(only level 2/3)"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_R4BycCmwEeOzmJblHFOvjw" name="Request MA Cyclically respect to approach of target indication point (T_MAR) or MA timer elapsing (T_TIMEOUTRQST) (only level 2/3)"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_SKHA8CmwEeOzmJblHFOvjw" name="Request MA Cyclically when “Start” is selected (only level 2/3)"/>
@@ -2812,8 +2812,8 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_d3CxECnPEeOzmJblHFOvjw" name="… or Report train position at every balise group passage"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_d_uzACnPEeOzmJblHFOvjw" name="Report train position when train rear passes a level transition border (from level 2/3 to 0, NTC, 1)"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_eH-JACnPEeOzmJblHFOvjw" name="Determine Most Restrictive Speed Profile, based on :"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_ePJIACnPEeOzmJblHFOvjw" name="Determine Most Restrictive Speed Profile, based on :"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_eH-JACnPEeOzmJblHFOvjw" name="Determine Most Restrictive Speed Profile, based on: Override related speed restriction"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ePJIACnPEeOzmJblHFOvjw" name="Determine Most Restrictive Speed Profile, based on: Mode related speed restriction"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_eYdcECnPEeOzmJblHFOvjw" name="Roll Away Protection"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_ehnYECnPEeOzmJblHFOvjw" name="Report train position as requested by RBC…"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_e9O9ECnPEeOzmJblHFOvjw" name="Report train position when establishing a session with RBC"/>

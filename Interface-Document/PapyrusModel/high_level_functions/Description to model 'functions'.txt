@@ -1,0 +1,18 @@
+The diagram 'functions' consists of four levels:
+ - block 'High Level Functions'
+ - main-functions (defined by Baseliyos)
+ - sub-functions (defined by Baseliyos)
+ - on-board-functions (assigned by Simon according to figure 1, chapter 4.5 'Active Functions table', SRS and the related SRS paragraphs as specified there)
+
+The model uses only Block Definition Diagrams and Internal Block Diagrams.
+The Internal Block Diagrams show just an overwiev, not exact internal structure.
+
+The meaning of the colours:
+ - cyan: block 'High level Functions' for retrieveability
+Other colours mark double assignments of on-board-functions. These on-board-functions are itemized multiple.
+Different colours represent different sections of figure 1, chapter 4.5 'Active Functions table', SRS. (Not each section is needed to be enlisted.)
+ - red: 'Determine Train Speed and Location'
+ - black: 'Determine Most Restrictive Speed Profile, based on:'
+ - yellow: 'Supervise Train Speed'
+ - green: 'Supervise Train Movements'
+ - blue: 'Other funtions'
